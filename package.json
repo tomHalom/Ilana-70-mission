@@ -1,7 +1,7 @@
 {
+  "homepage": "http://tomHalom.github.io/ilana-70-mission",
   "name": "landingpage-react-template",
   "private": true,
-  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -17,6 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "build": "react-scripts build && node script.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

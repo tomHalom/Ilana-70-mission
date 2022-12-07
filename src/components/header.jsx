@@ -4,7 +4,7 @@ export const Header = (props) => {
   return (
     <header id='header'>
       <div className='intro'>
-        <ParticlesBg type="circle" bg={{zIndex: 0, position:"absolute", top:0}} />
+        <ParticlesBg type="cobweb" color="#6372ff" bg={{zIndex: 0, position:"absolute", top:0}} />
         <div className='overlay'>
           <div className='container'>
           
@@ -19,7 +19,7 @@ export const Header = (props) => {
                   href='#features'
                   className='btn btn-custom btn-lg page-scroll'
                 >
-                  Learn More
+                  לחץ להוראות
                 </a>{' '}
               </div>
             </div>

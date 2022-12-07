@@ -1,8 +1,13 @@
 {
+    "Navigation": {
+
+        "title": "הסיפור שלא סופר מעולם"
+
+    },
     "Header": {
 
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "title": "אילנה - סוד הצבא הנעלם",
+        "paragraph": "ולדימיר רזניקוב, אחד מסוכני הק.ג.ב בתקופתו של סטלין. ישב בקרמלין וערק לישראל בתחילת שנות ה-90 בפרויקט נעלה. אילנה עזרה לו להיקלט בארץ מבלי לדעת את עברו האמיתי, אך הוא הכיר טוב מאוד את אותה חיילת ממשומעת ונחושה שעשתה לו חיים קשים בתחילת שנות ה70"
 
     },
     "About": {
@@ -112,25 +117,7 @@
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
-    "Features": [{
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        }
-    ]
+    "Features": {
+        "paragraph": "בהקלטה שלפניכם מוכמנים תיאורים שיעזרו לכם למצוא את מיקומם של הרמזים השונים המפוזרים בבניין. באמצעות איסוף הרמזים תוכלי להגיע לפתרון. הרמזים יהוו חלקי פאזל שירכיבו ספרה. הספרה תשמש אתכם בהמשך לפתיחת המנעול"
+    }    
 }
