@@ -17,13 +17,11 @@ export const Features = (props) => {
               ))
             : 'Loading...'} */}
             <div className='col-md-8 col-md-offset-2 intro-text'>
-                <p>{props.data ? props.data.paragraph : 'Loading'}</p>
-                <a
-                  href='#about'
-                  className='btn btn-custom btn-lg page-scroll'
-                >
-                  לחץ להקלטה
-                </a>{' '}
+                <p >{props.data ? props.data.paragraph : 'Loading'}</p>
+                <a href='#about' className='btn btn-custom btn-lg page-scroll'>
+                  לחץ לשמיעה
+                </a>
+                {' '}
               </div>
         </div>
       </div>
