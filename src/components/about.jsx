@@ -1,5 +1,10 @@
+import React from "react";
+
 export const About = (props) => {
-  return (
+  const searchParams = new URLSearchParams(document.location.search);
+  const audioId = searchParams.get('id');
+
+    return (
     <div id='about' className='text-center'>
       <div className='container'>
         <div className='row'>
@@ -9,10 +14,10 @@ export const About = (props) => {
           </div>
           <div className='col-xs-12 col-md-6 section-title'>
             <div className='about-text'>
-              <h2>הקלטה</h2>              
+              <h2>הקלטה</h2>     
             </div>
             <p>
-            <audio controls src="audio/clue1.m4a"></audio>
+            <audio controls src={"audio/clue" + audioId + ".m4a"}/>
             </p>
           </div>
         </div>
